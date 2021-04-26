@@ -10,7 +10,7 @@ function AvailForm() {
   const [contact, setContact] = useState("");
 
   const submit = () => {
-    Axios.post("http://localhost:5000/edit", {
+    Axios.post("https://localhost:5000/edit", {
       area: area,
       city: city,
       state: state,
