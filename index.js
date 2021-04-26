@@ -26,6 +26,6 @@ const db = mysql.createConnection({
 		console.log(err);
 	});
   })
-app.listen(3001, () => {
+app.listen(5000, () => {
 	console.log("running server");
 });
