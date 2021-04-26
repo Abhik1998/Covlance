@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #006175 0%, #4cbe82 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #eaf3ee;
+  display: block;
+  font: 1.125rem "Oswald", Arial, sans-serif; /*18*/
+  height: 80px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 264px;
+  z-index: 2;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn span {
+  align-items: center;
+  background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.btn:hover span {
+  background: transparent;
+}
