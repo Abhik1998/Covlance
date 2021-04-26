@@ -25,6 +25,6 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.7",
     "react-scripts": "^4.0.3",
-    "webpack-dev-server": "3.11.0"
+    "webpack-dev-server": "^3.11.0"
   }
 }
