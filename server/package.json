@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "cd client && npm start",
     "client:build": "cd client && npm run build",
-    "start": "npm run client && node index.js"
+    "start": "npm install && npm run client && node index.js"
   },
   "keywords": [
     "covid"
@@ -20,6 +20,7 @@
     "express": "^4.17.1",
     "firebase": "^8.4.2",
     "firebase-admin": "^9.6.0",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "react-scripts": "^4.0.3"
   }
 }
